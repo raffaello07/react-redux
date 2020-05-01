@@ -16,6 +16,13 @@ const Header = () => {
           Home
         </NavLink>
         <NavLink
+          to="/courses"
+          activeStyle={activeStyle}
+          className="py-2 d-inline-block"
+        >
+          Courses
+        </NavLink>
+        <NavLink
           to="/about"
           activeStyle={activeStyle}
           className="py-2 d-inline-block"
